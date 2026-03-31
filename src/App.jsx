@@ -16,7 +16,7 @@ const getModels = async ()=>{
 const modelPromise = getModels();
 function App() {
 
-  const [activeTab, setActiveTab] = useState("model")
+  const [activeTab, setActiveTab] = useState("products")
 
   const [carts,setCarts] = useState([])
 

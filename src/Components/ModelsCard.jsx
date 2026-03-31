@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Check } from 'lucide-react';
+import { toast } from 'react-toastify';
 
 const tagStyles = {
 popular: "bg-blue-100 text-blue-600",
@@ -12,6 +13,7 @@ const ModelsCard = ({model,carts,setCarts}) => {
     const handleBuyNow = ()=>{
         setBuyNow(true)
         setCarts([...carts,model])
+        toast.success("Item added to Cart!")
     }
     return (
          <div className='relative px-6 py-7 rounded-2xl shadow-sm '>

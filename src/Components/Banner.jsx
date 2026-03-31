@@ -2,7 +2,7 @@ import React from 'react';
 
 const Banner = () => {
     return (
-        <div className=' flex gap-10 mt-8 w-11/12 mx-auto'>
+        <div className=' flex flex-col md:flex-row gap-10 mt-8 w-11/12 mx-auto'>
             <div className='mt-30'>
                 <div className='inline-flex items-center  px-4 bg-[#E1E7FF] rounded-full py-2  gap-1.5 w-fit' >
                     <img src="/src/assets/Group 5.png" alt="" />
