@@ -6,6 +6,7 @@ import NavBar from './Components/NavBar'
 import Stats from './Components/Stats'
 import Cart from './Components/Cart'
 import { useState } from 'react'
+import Steps from './Components/Steps'
 
 
 const getModels = async ()=>{
@@ -36,7 +37,7 @@ function App() {
 </div>
     {activeTab==="products" &&<Models modelPromise ={modelPromise } carts={carts} setCarts={setCarts}></Models>}
     {activeTab==="cart" && <Cart carts={carts} setCarts={setCarts}></Cart>}
-    
+    <Steps></Steps>
     </>
   )
 }
