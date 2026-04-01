@@ -1,4 +1,5 @@
 import React from 'react';
+import navbarCart from '../assets/Icon(Stroke).png'
 
 const NavBar = () => {
     return (
@@ -30,7 +31,7 @@ const NavBar = () => {
     </ul>
   </div>
   <div className="navbar-end gap-2">
-    <a><img src="/src/assets/Icon (Stroke).png" alt="" /></a>
+    <a><img src={navbarCart} alt="" /></a>
     <a>Login</a>
     <button className="btn bg-gradient-to-r from-blue-700 to-purple-700 text-white rounded-4xl">Get Started</button>
   </div>

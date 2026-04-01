@@ -1,11 +1,13 @@
 import React from 'react';
 
+import bannerImg from '../assets/Group5.png';
+import bannerHero from '../assets/banner.png';
 const Banner = () => {
     return (
         <div className=' flex flex-col md:flex-row gap-10 mt-8 w-11/12 mx-auto'>
             <div className='mt-30'>
                 <div className='inline-flex items-center  px-4 bg-[#E1E7FF] rounded-full py-2  gap-1.5 w-fit' >
-                    <img src="/src/assets/Group 5.png" alt="" />
+                    <img src={bannerImg} alt="" />
                     <p className='text-[16px] bg-gradient-to-r to-blue-700 from-purple-700 bg-clip-text text-transparent'>New: AI-Powered Tools Available</p>
                 </div>
                 <div>
@@ -24,7 +26,7 @@ Explore Products
                 </div>
             </div>
             <div>
-                <img src="/src/assets/banner.png" alt="" />
+                <img src={bannerHero} alt="" />
             </div>
         </div>
 

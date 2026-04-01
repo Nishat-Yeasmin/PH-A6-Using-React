@@ -1,4 +1,7 @@
 import React from 'react';
+import footerInsta from '../assets/Instagram.png';
+import footerFacebook from '../assets/Facebook.png';
+import footerTwitter from '../assets/Twitter(2).png';
 
 const Footer = () => {
     return (
@@ -49,11 +52,11 @@ const Footer = () => {
                 <h3 className='font-semibold text-white mb-3'>Social Links</h3>
 
                 <div className='flex gap-2.5'>
-                    <img src="/src/assets/Instagram.png" alt="" />
+                    <img src={footerInsta} alt="" />
 
-                    <img src="/src/assets/Facebook.png" alt="" />
+                    <img src={footerFacebook} alt="" />
 
-                    <img src="/src/assets/Twitter (2).png" alt="" />
+                    <img src={footerTwitter} alt="" />
                 </div>
             </div>
 

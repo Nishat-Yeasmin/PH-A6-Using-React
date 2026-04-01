@@ -1,3 +1,4 @@
+
 [
   {
     "id": 1,
@@ -8,7 +9,7 @@
     "tag": "popular",
     "tagType": "popular",
     "features": ["100+ templates", "ATS optimization", "Export to PDF"],
-    "icon": "/src/assets/products/portfolio.png"
+    "icon": "/products/portfolio.png"
   },
   {
     "id": 2,
@@ -19,7 +20,7 @@
     "tag": "best seller",
     "tagType": "best",
     "features": ["Auto posting", "Analytics dashboard", "Multi-platform support"],
-    "icon": "/src/assets/products/social-media.png"
+    "icon": "/products/social-media.png"
   },
   {
     "id": 3,
@@ -30,7 +31,7 @@
     "tag": "new",
     "tagType": "new",
     "features": ["SEO optimized content", "Multiple tones", "Plagiarism free"],
-    "icon": "/src/assets/products/writing_2327400 1.png"
+    "icon": "/products/writing_2327400 1.png"
   },
   {
     "id": 4,
@@ -41,7 +42,7 @@
     "tag": "popular",
     "tagType": "popular",
     "features": ["Drag & drop builder", "Free hosting", "Custom domains"],
-    "icon": "/src/assets/products/operation.png"
+    "icon": "/products/operation.png"
   },
   {
     "id": 5,
@@ -52,7 +53,7 @@
     "tag": "best seller",
     "tagType": "best",
     "features": ["500+ templates", "Font library", "Stock images"],
-    "icon": "/src/assets/products/social-media.png"
+    "icon": "/products/social-media.png"
   },
   {
     "id": 6,
@@ -63,7 +64,7 @@
     "tag": "popular",
     "tagType": "popular",
     "features": ["Automation workflows", "Email templates", "Analytics reports"],
-    "icon": "/src/assets/products/shopping-cart.png"
+    "icon": "/products/shopping-cart.png"
   },
   {
     "id": 7,
@@ -74,7 +75,7 @@
     "tag": "new",
     "tagType": "new",
     "features": ["Kanban boards", "Team collaboration", "Task tracking"],
-    "icon": "/src/assets/products/design-tool.png"
+    "icon": "/products/design-tool.png"
   },
   {
     "id": 8,
@@ -85,6 +86,6 @@
     "tag": "best seller",
     "tagType": "best",
     "features": ["No-code builder", "24/7 support", "Multi-language"],
-    "icon": "/src/assets/products/design-tool.png"
+    "icon": "/products/design-tool.png"
   }
 ]
