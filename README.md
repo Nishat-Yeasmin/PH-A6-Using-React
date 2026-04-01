@@ -1,16 +1,22 @@
-# React + Vite
+## Project Name
+Digital Tools Buying Website.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Description
+Digital Tools Buying Website is a simple and modern e-commerce web application where users can browse, select, and purchase different digital tools. The website provides a smooth shopping experience with a cart system, product management, and interactive notifications using React Toastify.Toast notifications are used for better user experience.
 
-Currently, two official plugins are available:
+Users can add products to the cart, remove them if needed, and proceed to checkout where all selected items are cleared. The project focuses on clean UI, user-friendly experience, and basic e-commerce functionality. 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Technologies Used
+1. React.js
+2. Tailwind CSS, DaisyUI
+3. JavaScript (ES6+)
+4. React-Toastify (NPM Package)
+5. JSON (for product data)
 
-## React Compiler
+## Features
+1. Add products to cart with toast notification.
+2. Remove individual products from cart.
+3. Checkout system that clears all cart items.
+4. Beautiful toast alerts for all actions.
+5. Live total price calculation.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.

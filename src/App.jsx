@@ -8,6 +8,7 @@ import Cart from './Components/Cart'
 import { useState } from 'react'
 import Steps from './Components/Steps'
 import Pricing from './Components/Pricing'
+import Footer from './Components/Footer'
 
 
 const getModels = async ()=>{
@@ -40,6 +41,7 @@ function App() {
     {activeTab==="cart" && <Cart carts={carts} setCarts={setCarts}></Cart>}
     <Steps></Steps>
     <Pricing></Pricing>
+    <Footer></Footer>
     </>
   )
 }
