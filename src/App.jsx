@@ -7,6 +7,7 @@ import Stats from './Components/Stats'
 import Cart from './Components/Cart'
 import { useState } from 'react'
 import Steps from './Components/Steps'
+import Pricing from './Components/Pricing'
 
 
 const getModels = async ()=>{
@@ -38,6 +39,7 @@ function App() {
     {activeTab==="products" &&<Models modelPromise ={modelPromise } carts={carts} setCarts={setCarts}></Models>}
     {activeTab==="cart" && <Cart carts={carts} setCarts={setCarts}></Cart>}
     <Steps></Steps>
+    <Pricing></Pricing>
     </>
   )
 }
