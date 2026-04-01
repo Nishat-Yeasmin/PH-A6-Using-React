@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "name": "AI Resume Builder",
+    "description": "Create professional resumes with AI suggestions and modern templates.",
+    "price": 9.99,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["100+ templates", "ATS optimization", "Export to PDF"],
+    "icon": "/src/assets/products/portfolio.png"
+  },
+  {
+    "id": 2,
+    "name": "Social Media Scheduler",
+    "description": "Schedule and manage posts across multiple platforms بسهولة.",
+    "price": 14.99,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best",
+    "features": ["Auto posting", "Analytics dashboard", "Multi-platform support"],
+    "icon": "/src/assets/products/social-media.png"
+  },
+  {
+    "id": 3,
+    "name": "AI Content Writer",
+    "description": "Generate high-quality blog posts, captions, and articles instantly.",
+    "price": 19.99,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": ["SEO optimized content", "Multiple tones", "Plagiarism free"],
+    "icon": "/src/assets/products/writing_2327400 1.png"
+  },
+  {
+    "id": 4,
+    "name": "Website Builder Pro",
+    "description": "Build responsive websites with drag-and-drop features.",
+    "price": 49.99,
+    "period": "yearly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["Drag & drop builder", "Free hosting", "Custom domains"],
+    "icon": "/src/assets/products/operation.png"
+  },
+  {
+    "id": 5,
+    "name": "Graphic Design Toolkit",
+    "description": "Access premium design tools and templates for creatives.",
+    "price": 29.99,
+    "period": "yearly",
+    "tag": "best seller",
+    "tagType": "best",
+    "features": ["500+ templates", "Font library", "Stock images"],
+    "icon": "/src/assets/products/social-media.png"
+  },
+  {
+    "id": 6,
+    "name": "Email Marketing Suite",
+    "description": "Create, send, and analyze email campaigns effectively.",
+    "price": 12.99,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["Automation workflows", "Email templates", "Analytics reports"],
+    "icon": "/src/assets/products/shopping-cart.png"
+  },
+  {
+    "id": 7,
+    "name": "Project Management Tool",
+    "description": "Organize tasks, teams, and deadlines in one place.",
+    "price": 0,
+    "period": "one-time",
+    "tag": "new",
+    "tagType": "new",
+    "features": ["Kanban boards", "Team collaboration", "Task tracking"],
+    "icon": "/src/assets/products/design-tool.png"
+  },
+  {
+    "id": 8,
+    "name": "AI Chatbot Builder",
+    "description": "Create smart chatbots for customer support and automation.",
+    "price": 24.99,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best",
+    "features": ["No-code builder", "24/7 support", "Multi-language"],
+    "icon": "/src/assets/products/design-tool.png"
+  }
+]
